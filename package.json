@@ -1,7 +1,7 @@
 {
   "name": "heroku-cli-tinyadmin",
-  "version": "1.0.0",
-  "author": "Michael Bumann @bumi",
+  "version": "1.0.1",
+  "author": "Michael Bumann",
   "bugs": "https://github.com/bumi/heroku-cli-tinyadmin/issues",
   "dependencies": {
     "@heroku-cli/command": "^8.3.0",
@@ -40,7 +40,7 @@
   ],
   "license": "MIT",
   "oclif": {
-    "commands": "./src/commands",
+    "commands": "./lib/commands",
     "bin": "heroku",
     "topics": {
       "tinyadmin": {
